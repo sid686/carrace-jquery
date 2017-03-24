@@ -1,0 +1,108 @@
+#box{
+    height: 200px;
+    width: 200px;
+    background: #fc3;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 100px;
+    
+}
+.thing{
+    height: 200px;
+    width: 200px;
+    background: #ac3;
+    margin: 20px auto;
+    line-height: 200px;
+    text-align: center;
+    border-top-right-radius: 200px;
+}
+
+button{
+    background: #933;
+    color: white;
+    padding: 10px;
+    border: solid 1px red;
+    border-radius: 5px;
+    font-size: 18px;
+}
+h1{
+    text-align: center;
+}
+
+form{
+    text-align: center;
+}
+
+#racetrack{
+    background: url('download.jpg') center left repeat ;
+    height: 400px;
+    border-right: dashed 10px white;
+    box-sizing: border-box;
+    
+}
+.car{
+    display: block;
+    position: relative;
+}
+
+#raceinfocontainer{
+    width: 80%;
+    margin: 40px  auto 0;
+    background: #333; 
+    height: 200px;
+          }
+#raceinfocontainer h2{
+    color: white;
+    text-transform: uppercase;
+    border-bottom: solid 1px white;
+    padding: 20px 0;
+    
+}
+.raceinfo{
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    width: 50%;
+    float: left;
+    
+}
+.raceinfo span{
+    display: block;
+    font-weight: normal;
+    font-size: 18px;
+    color: white;
+}
+
+#raceinfo1 {
+    
+    color: #77b82f;
+    
+}
+#raceinfo2{
+    color: darkred;
+}
+
+
+input[type="button"]{
+
+    background: #77b72f;
+    color: white;
+    padding: 10px 20px;
+    border: solid 1px #444;
+}
+input#reset{
+    background: #fc3;
+    color: #444;
+    
+}
+.clearfix:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+#car2{
+    width: 259px;
+    max-width: 259px;
+    height: 194px;
+    max-height: 194px;
+}
